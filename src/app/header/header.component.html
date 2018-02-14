@@ -1,0 +1,19 @@
+
+<div class="topArea">
+  <div class="logo">
+    <img src="https://smedia2.intoday.in/mobiletv/1.1/resources/assets/images/mobiletak-logo.png" width="70"/>
+  </div>
+</div>
+
+<nav>
+  <ul>
+    <li><a routerLink="/" [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact: true}"> Newstak</a></li>
+    <li><a routerLink="/lifetak" routerLinkActive="active-link">Lifetak</a></li>
+    <li><a routerLink="/techtak" routerLinkActive="active-link">Techtak</a></li>
+    <li><a routerLink="/sportstak" routerLinkActive="active-link">Sportstak</a></li>
+    <li><a routerLink="/foodtak" routerLinkActive="active-link">Foodtak</a></li>
+   
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>

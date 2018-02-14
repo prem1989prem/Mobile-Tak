@@ -1,0 +1,152 @@
+.pageTitle {
+    margin: 0px 0 0 0;
+    padding: 5px 0px 10px 0;
+    width: 100%;
+    background: #1c8a05;
+    border-top: 2px solid #125c03;
+}
+
+.pageTitle h1 {
+    margin: 0px;
+    padding: 0px 25px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-align: right;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+
+.slide {
+    margin: 0px 0 30px 0;
+    padding: 0px;
+    background: #9f9f9f;
+    height: 300px;
+    line-height: 300px;
+    border-bottom: 5px solid #111111;
+    border-top: 2px solid #d3d2d2;
+}
+
+.slide ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.slide ul li{
+    margin: 0px;
+    padding: 0px;
+}
+
+.slide ul li h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+
+.homeVideo {
+    margin: 0px;
+    padding: 0px;
+}
+
+.homeVideo ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.homeVideo ul li {
+    margin: 0px 0 20px 0;
+    padding: 0px 0 20px 0;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden
+}
+
+.homeVideo ul li:last-child{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+.homeVideo .dateArea {
+    margin: 0px 0 10px 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.homeVideo .dateArea ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+   
+}
+
+.homeVideo .dateArea ul li {
+    margin: 0px 1px 0px 0;
+    padding: 5px 10px;
+   float: left;
+   background: #1c8a05;
+   font-size: 12px;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   border: 0px;
+  
+   
+}
+
+.homeVideo .dateArea ul li:last-child{
+    color: #fff;
+}
+
+.homeVideo .videoArea {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.homeVideo .videoPic {
+    margin: 0px 5px 0 0;
+    padding: 0px;
+    width: 40%;
+    float: left;
+}
+
+.homeVideo .videoPic img {
+    width: 100%
+}
+
+.homeVideo .videoInfo {
+    margin: 0px;
+    padding: 0px;
+    width: 55%;
+    float: right
+}
+
+.homeVideo .videoInfo h2 {
+    margin: 0px;
+    padding: 0px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #000;
+    line-break: 18px;
+    
+}
+
+.homeVideo .videoInfo p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #989898;
+}
+

@@ -1,0 +1,33 @@
+<div class="pageTitle">
+        <h1>Sports Tak</h1>
+    </div>
+
+<div class="slide">
+        <iframe width="597" height="300" src="https://www.youtube.com/embed/BkZWxCKvjLw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+<div class="homeVideo">
+<ul>
+        <li *ngFor='let sportTak of sport'>
+                <div class="dateArea">
+                    <ul>
+                        <li>{{sportTak.time}}</li>
+                        <li>{{sportTak.date}}</li>
+                    </ul>
+                </div>
+    
+                <div class="videoArea">
+                    <div class="videoPic">
+                        <img src="{{sportTak.videoSrc}}" alt="">
+                    </div>
+                    <div class="videoInfo">
+                        <h2>{{sportTak.videoTitile}}</h2>
+                        <p>{{sportTak.videoDetails}}</p>
+                    </div>
+                </div>
+            </li>
+            <!-- end list -->
+            
+</ul>
+</div>
